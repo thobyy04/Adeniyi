@@ -32,7 +32,8 @@ order by total_cases desc;
 select distinct(crime) as crime_type, sum(total_cases) as total_crimes
 from crime_rate_spain
 where year = 2020
-group by crime
+group by crime![spain dashboard](https://user-images.githubusercontent.com/100759379/204086370-1f2da396-6c7e-4f74-8d68-d285c115c10a.png)
+
 order by total_cases desc;
 
 
